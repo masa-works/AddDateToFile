@@ -27,6 +27,8 @@ Win + R を押して ```regedit``` と入力して Enter を押します。
 - AddDateTimeToFile
 ```ファイル名に日付と時間を追加```
 
+※ 任意の文字列に変更が可能です。
+
 各キーの下にコマンドキー ```command``` の (既定) を以下のように修正します。  
 - AddDateToFile：
 ```"C:\path\to\add_date_to_filename.exe" "%1"```
