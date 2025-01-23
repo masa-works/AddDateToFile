@@ -26,7 +26,7 @@ Win + R を押して ```regedit``` と入力して Enter を押します。
 - AddDateToFolder
 - AddDateTimeToFolder
 
-各キーの (既定) を以下のように登録されていることを確認します。  
+各キーの (既定) に以下のような文字列が登録されていることを確認します。  
 ※ 任意の文字列に変更が可能です。
 
 ```HKEY_CLASSES_ROOT\*\shell```  
@@ -47,6 +47,8 @@ Win + R を押して ```regedit``` と入力して Enter を押します。
 C:\path\to\add_date_to_filename.exe
 ↓
 配布された .exe ファイルのフルパスに置き換える
+
+例: C:\Users\username\Downloads\AddDateToX\main.exe
 ```
 
 ```HKEY_CLASSES_ROOT\*\shell```  
@@ -66,6 +68,7 @@ C:\path\to\add_date_to_filename.exe
 ファイル/フォルダ名が変更されることが確認できます。
 ```
 例: example.txt → 20250122_example.txt
-    example_folder → 20250122_example_folder```
+    example_folder → 20250122_example_folder
+```
 
 ※ 複数ファイル/フォルダに対しても実行可能です。
