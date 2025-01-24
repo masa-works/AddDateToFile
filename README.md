@@ -28,7 +28,7 @@ main.exeを任意のパスに変更した際は
 - AddDateToX_reg.exe
 
 ※ 問題なく追加できると 「アップデート完了」 のメッセージが表示されます。  
-※ **main.exeとAddDateToX_reg.exeは、同じフォルダに配置してください。**
+※ **main.exeとAddDateToX_reg.exeは、同じフォルダに配置してください。**  
 ※ **main.exeが存在しない場合、エラーメッセージが表示されます。**
 ```
 以下のようにmain.exeを移動させたい場合
